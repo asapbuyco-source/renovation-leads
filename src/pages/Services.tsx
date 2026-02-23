@@ -123,9 +123,15 @@ export default function Services() {
 
                 <Link 
                   to="/contact" 
-                  className="w-full py-3 rounded-xl border border-orange-200 text-orange-600 font-bold hover:bg-orange-50 transition-colors flex items-center justify-center group-hover:bg-orange-600 group-hover:text-white group-hover:border-orange-600"
+                  className="w-full py-3 rounded-xl border border-orange-200 text-orange-600 font-bold hover:bg-orange-50 transition-colors flex items-center justify-center group-hover:bg-orange-600 group-hover:text-white group-hover:border-orange-600 mb-3"
                 >
                   Get {service.title} Leads
+                </Link>
+                <Link 
+                  to="/contact" 
+                  className="w-full py-3 rounded-xl bg-slate-900 text-white font-bold hover:bg-slate-800 transition-colors flex items-center justify-center shadow-md"
+                >
+                  Get a Free Quote
                 </Link>
               </div>
             </motion.div>
