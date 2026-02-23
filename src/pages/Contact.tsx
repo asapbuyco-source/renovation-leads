@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Phone, Mail, MapPin, Send, CheckCircle2, AlertCircle, HelpCircle, ChevronDown, ChevronUp, Star, ShieldCheck } from 'lucide-react';
 
@@ -49,6 +50,11 @@ export default function Contact() {
 
   return (
     <div className="bg-slate-50 min-h-screen">
+      <Helmet>
+        <title>Contact Us | Renovation Leads Cameroon</title>
+        <meta name="description" content="Ready to grow your business? Contact us today to join our network of trusted contractors. Phone: +237 657 960 690." />
+        <link rel="canonical" href="https://renovationleads.cm/contact" />
+      </Helmet>
       {/* Header */}
       <div className="bg-slate-900 text-white py-16 lg:py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-orange-600/10"></div>

@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { CheckCircle2, Users, Target, Heart, ArrowRight } from 'lucide-react';
 
 export default function About() {
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>About Us | Renovation Leads Cameroon</title>
+        <meta name="description" content="We are bridging the gap in Cameroon's construction industry. Connecting skilled contractors with homeowners who value quality. Canadian standards, Cameroonian heart." />
+        <link rel="canonical" href="https://renovationleads.cm/about" />
+      </Helmet>
       {/* Header */}
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Star, Quote, Play, CheckCircle2 } from 'lucide-react';
 
@@ -69,6 +70,11 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <div className="bg-slate-50 min-h-screen">
+      <Helmet>
+        <title>Success Stories | Renovation Leads Cameroon</title>
+        <meta name="description" content="Read success stories from contractors who have scaled their business with Renovation Leads. Real stories, real growth." />
+        <link rel="canonical" href="https://renovationleads.cm/testimonials" />
+      </Helmet>
       {/* Header */}
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         {/* Decorative pattern */}

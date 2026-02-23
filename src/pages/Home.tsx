@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { ArrowRight, CheckCircle2, TrendingUp, Users, ShieldCheck, Phone, Star, Target, ArrowUpRight, Hammer, PaintBucket, Wrench, Home as HomeIcon, Clock, MapPin, Zap } from 'lucide-react';
 import AIFeatures from '../components/AIFeatures';
@@ -7,6 +8,11 @@ import AIFeatures from '../components/AIFeatures';
 export default function Home() {
   return (
     <div className="overflow-hidden bg-white">
+      <Helmet>
+        <title>Renovation Leads Cameroon | #1 Lead Generation for Contractors</title>
+        <meta name="description" content="Connect with homeowners in Douala, Yaoundé, and beyond. Get exclusive, verified renovation leads sent directly to your phone." />
+        <link rel="canonical" href="https://renovationleads.cm/" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative pt-12 pb-16 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50">
         {/* Abstract Background Shapes */}

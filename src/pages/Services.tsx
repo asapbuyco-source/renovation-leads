@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'motion/react';
 import { Hammer, PaintBucket, Wrench, Zap, Home, Ruler, ArrowRight, Check } from 'lucide-react';
 
@@ -51,6 +52,11 @@ const services = [
 export default function Services() {
   return (
     <div className="bg-slate-50 min-h-screen">
+      <Helmet>
+        <title>Our Services | Renovation Leads Cameroon</title>
+        <meta name="description" content="Explore our lead categories: Home Renovation, Kitchen & Bath, Roofing, Painting, Electrical, and Plumbing. High-value leads for every trade." />
+        <link rel="canonical" href="https://renovationleads.cm/services" />
+      </Helmet>
       {/* Header */}
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
