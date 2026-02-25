@@ -16,7 +16,7 @@ export default function About() {
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80" 
+            src="https://i.ibb.co/XkyHBfZZ/steptodown-com160770.jpg" 
             alt="Background" 
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-30"
@@ -49,7 +49,7 @@ export default function About() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-orange-100 rounded-full z-0"></div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-slate-100 rounded-full z-0"></div>
               <img 
-                src="https://images.unsplash.com/photo-1541888946-40270131826c?auto=format&fit=crop&w=600&q=80" 
+                src="https://i.ibb.co/XBYg54v/steptodown-com265404.jpg" 
                 alt="Construction Site" 
                 referrerPolicy="no-referrer"
                 className="relative z-10 rounded-3xl shadow-2xl w-full h-auto object-cover"

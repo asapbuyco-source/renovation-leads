@@ -109,7 +109,7 @@ export default function Home() {
             >
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-[6px] border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" 
+                  src="https://i.ibb.co/BVqVVtKt/steptodown-com405369.jpg" 
                   alt="Construction Site" 
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-1000"
@@ -275,14 +275,14 @@ export default function Home() {
                 desc: "Complete house makeovers, extensions, and structural changes.",
                 price: "High Ticket",
                 icon: <HomeIcon className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1484154218962-a1c00474a42b?auto=format&fit=crop&w=400&q=80" 
+                img: "https://i.ibb.co/Tx4JPvjM/steptodown-com545271.jpg" 
               },
               { 
                 title: "Kitchen & Bath", 
                 desc: "Cabinetry, tiling, plumbing fixtures, and modern upgrades.",
                 price: "Most Popular",
                 icon: <Wrench className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1556911220-e67041ee942d?auto=format&fit=crop&w=400&q=80" 
+                img: "https://i.ibb.co/PvzfZcyN/steptodown-com603047.jpg" 
               },
               { 
                 title: "Roofing & Waterproofing", 
