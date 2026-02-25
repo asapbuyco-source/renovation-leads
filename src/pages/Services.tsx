@@ -10,28 +10,28 @@ const services = [
     title: "Home Renovations",
     desc: "Full house remodeling leads, from living rooms to bedrooms. High-ticket projects for general contractors.",
     features: ["Whole House Remodels", "Room Additions", "Structural Changes", "Basement Finishing"],
-    image: "https://i.ibb.co/Tx4JPvjM/steptodown-com545271.jpg"
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <Wrench className="h-8 w-8" />,
     title: "Kitchen & Bath",
     desc: "Targeted leads for kitchen upgrades and bathroom remodeling. Homeowners looking for modern finishes.",
     features: ["Cabinet Installation", "Countertop Replacement", "Shower/Tub Install", "Full Redesign"],
-    image: "https://i.ibb.co/PvzfZcyN/steptodown-com603047.jpg"
+    image: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <Ruler className="h-8 w-8" />,
     title: "Roofing & Flooring",
     desc: "Specific requests for roof repairs, new installations, tiling, and parquet flooring projects.",
     features: ["Leak Repairs", "New Roof Install", "Tile & Grout", "Hardwood/Laminate"],
-    image: "https://images.unsplash.com/photo-1632759160855-0c9205c46056?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1623162539687-3d172c694c40?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <PaintBucket className="h-8 w-8" />,
     title: "Painting Services",
     desc: "Interior and exterior painting jobs for residential and commercial properties.",
     features: ["Interior Walls", "Exterior Facades", "Commercial Painting", "Wallpapering"],
-    image: "https://images.unsplash.com/photo-1589939705319-9299154fccc3?auto=format&fit=crop&w=600&q=80"
+    image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <Zap className="h-8 w-8" />,
@@ -61,7 +61,7 @@ export default function Services() {
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://i.ibb.co/sdVg77nJ/steptodown-com912127.jpg" 
+            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80" 
             alt="Contractors working on a modern building" 
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-40"

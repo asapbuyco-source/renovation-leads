@@ -27,7 +27,7 @@ const caseStudies = [
     client: "Modern Living Renovations",
     location: "London, UK",
     category: "Kitchen & Bath",
-    image: "https://i.ibb.co/PvzfZcyN/steptodown-com603047.jpg",
+    image: "https://images.unsplash.com/photo-1556911220-e67041ee942d?auto=format&fit=crop&w=800&q=80",
     stats: [
       { label: "Avg. Project Value", value: "$45k" },
       { label: "ROI", value: "12x" },
@@ -68,7 +68,7 @@ export default function CaseStudies() {
       <div className="relative bg-slate-900 py-20 lg:py-28 overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://i.ibb.co/p6zqBNHd/steptodown-com202296.jpg" 
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80" 
             alt="Construction planning" 
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-20"

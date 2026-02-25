@@ -109,7 +109,7 @@ export default function Home() {
             >
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-[6px] border-white">
                 <img 
-                  src="https://i.ibb.co/BVqVVtKt/steptodown-com405369.jpg" 
+                  src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80" 
                   alt="Construction Site" 
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-1000"
@@ -275,28 +275,28 @@ export default function Home() {
                 desc: "Complete house makeovers, extensions, and structural changes.",
                 price: "High Ticket",
                 icon: <HomeIcon className="h-6 w-6" />, 
-                img: "https://i.ibb.co/Tx4JPvjM/steptodown-com545271.jpg" 
+                img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Kitchen & Bath", 
                 desc: "Cabinetry, tiling, plumbing fixtures, and modern upgrades.",
                 price: "Most Popular",
                 icon: <Wrench className="h-6 w-6" />, 
-                img: "https://i.ibb.co/PvzfZcyN/steptodown-com603047.jpg" 
+                img: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Roofing & Waterproofing", 
                 desc: "Leak repairs, new roof installations, and gutter systems.",
                 price: "Urgent Demand",
                 icon: <Hammer className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1632759160855-0c9205c46056?auto=format&fit=crop&w=400&q=80" 
+                img: "https://images.unsplash.com/photo-1623162539687-3d172c694c40?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Painting & Finishing", 
                 desc: "Interior/exterior painting, stucco, and decorative finishes.",
                 price: "High Volume",
                 icon: <PaintBucket className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1589939705319-9299154fccc3?auto=format&fit=crop&w=400&q=80" 
+                img: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Electrical & Plumbing", 
