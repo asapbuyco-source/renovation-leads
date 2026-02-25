@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm leading-relaxed text-slate-400 max-w-xs">
-              Helping contractors and renovation companies in Cameroon grow their business with high-quality, ready-to-hire leads.
+              Helping contractors and renovation companies worldwide grow their business with high-quality, ready-to-hire leads.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="text-slate-400 hover:text-white transition-colors">
@@ -42,6 +42,7 @@ export default function Footer() {
               <li><Link to="/" className="text-sm hover:text-orange-400 transition-colors">Home</Link></li>
               <li><Link to="/services" className="text-sm hover:text-orange-400 transition-colors">Services</Link></li>
               <li><Link to="/how-it-works" className="text-sm hover:text-orange-400 transition-colors">How It Works</Link></li>
+              <li><Link to="/case-studies" className="text-sm hover:text-orange-400 transition-colors">Case Studies</Link></li>
               <li><Link to="/testimonials" className="text-sm hover:text-orange-400 transition-colors">Testimonials</Link></li>
               <li><Link to="/about" className="text-sm hover:text-orange-400 transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="text-sm hover:text-orange-400 transition-colors">Contact</Link></li>
@@ -68,20 +69,24 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
                 <div className="flex flex-col gap-2">
                   <span className="text-sm text-slate-400">
-                    <strong className="text-white">Cameroon Branch:</strong><br/>
-                    Serving Douala, Yaoundé, and all of Cameroon.
+                    <strong className="text-white">Global Operations:</strong><br/>
+                    Serving contractors worldwide.
                   </span>
                   <span className="text-sm text-slate-400">
                     <strong className="text-white">Head Office (Canada):</strong><br/>
                     Canadian based industry.
+                  </span>
+                  <span className="text-sm text-slate-400">
+                    <strong className="text-white">Cameroon Branch:</strong><br/>
+                    Serving Douala, Yaoundé, and all of Cameroon.
                   </span>
                 </div>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-orange-500 shrink-0" />
                 <div className="flex flex-col">
+                  <span className="text-sm text-slate-400">Global (WhatsApp): +1 343 634 8743</span>
                   <span className="text-sm text-slate-400">Cameroon: +237 657 960 690</span>
-                  <span className="text-sm text-slate-400">Canada (WhatsApp): +1 343 634 8743</span>
                 </div>
               </li>
               <li className="flex items-center gap-3">
@@ -97,8 +102,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Renovation Leads. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-xs text-slate-500 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-xs text-slate-500 hover:text-white">Terms of Service</a>
+            <Link to="/privacy-policy" className="text-xs text-slate-500 hover:text-white">Privacy Policy</Link>
+            <Link to="/terms-and-conditions" className="text-xs text-slate-500 hover:text-white">Terms of Service</Link>
           </div>
         </div>
       </div>

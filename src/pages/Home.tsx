@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="overflow-hidden bg-white">
       <Helmet>
-        <title>Renovation Leads Cameroon | #1 Lead Generation for Contractors</title>
-        <meta name="description" content="Connect with homeowners in Douala, Yaoundé, and beyond. Get exclusive, verified renovation leads sent directly to your phone." />
-        <link rel="canonical" href="https://renovationleads.cm/" />
+        <title>Renovation Leads Global | #1 Lead Generation for Contractors</title>
+        <meta name="description" content="Connect with homeowners worldwide. Get exclusive, verified renovation leads sent directly to your phone." />
+        <link rel="canonical" href="https://renovationleads.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative pt-12 pb-16 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50">
@@ -34,7 +34,7 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-orange-500"></span>
                 </span>
-                #1 Lead Generation Platform in Cameroon
+                #1 Lead Generation Platform Worldwide
               </div>
               <h1 className="text-4xl lg:text-6xl font-serif font-bold leading-tight mb-6 text-slate-900 tracking-tight">
                 Stop Chasing Jobs. <br/>
@@ -46,7 +46,7 @@ export default function Home() {
                 </span> Come to You.
               </h1>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                We connect renovation contractors in Douala, Yaoundé, and beyond with homeowners who are ready to hire. <b>Exclusive leads, verified phone numbers, real results.</b>
+                We connect renovation contractors with homeowners who are ready to hire. <b>Exclusive leads, verified phone numbers, real results.</b>
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-10 justify-center lg:justify-start">
@@ -54,7 +54,7 @@ export default function Home() {
                   to="/contact" 
                   className="inline-flex items-center justify-center px-8 py-4 text-base font-bold rounded-full text-white bg-orange-600 hover:bg-orange-700 transition-all shadow-xl shadow-orange-600/20 hover:shadow-orange-600/30 transform hover:-translate-y-1"
                 >
-                  Get 3 Free Leads
+                  Get 3 Free Leads + Free Website
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link 
@@ -67,12 +67,12 @@ export default function Home() {
 
               <div className="flex items-center gap-6 justify-center lg:justify-start border-t border-slate-200 pt-8">
                 <div>
-                  <p className="text-2xl font-bold text-slate-900">50+</p>
+                  <p className="text-2xl font-bold text-slate-900">500+</p>
                   <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Active Contractors</p>
                 </div>
                 <div className="w-px h-10 bg-slate-200"></div>
                 <div>
-                  <p className="text-2xl font-bold text-slate-900">$2M+</p>
+                  <p className="text-2xl font-bold text-slate-900">$20M+</p>
                   <p className="text-xs text-slate-500 font-medium uppercase tracking-wide">Project Value Generated</p>
                 </div>
               </div>
@@ -87,8 +87,9 @@ export default function Home() {
             >
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl border-[6px] border-white">
                 <img 
-                  src="https://picsum.photos/seed/african-construction-site/800/900" 
-                  alt="Construction Site in Cameroon" 
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" 
+                  alt="Construction Site" 
+                  referrerPolicy="no-referrer"
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -105,7 +106,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm font-bold">New Lead: Kitchen Remodel</p>
-                        <p className="text-xs text-slate-300">Bonapriso, Douala • 2 mins ago</p>
+                        <p className="text-xs text-slate-300">New York, USA • 2 mins ago</p>
                       </div>
                     </div>
                   </div>
@@ -123,6 +124,35 @@ export default function Home() {
                 </div>
               </div>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Special Offer Section */}
+      <section className="py-12 bg-slate-900 text-white relative overflow-hidden border-y border-slate-800">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="flex-1 text-center md:text-left">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-orange-500/20 text-orange-400 text-xs font-bold mb-4 border border-orange-500/30">
+                <span className="animate-pulse">🔥</span> Limited Time Offer
+              </div>
+              <h2 className="text-2xl md:text-4xl font-serif font-bold mb-4">
+                Need a Professional Website? <span className="text-orange-500">Get It 100% FREE.</span>
+              </h2>
+              <p className="text-slate-300 text-lg max-w-xl">
+                Partner with us for your leads, and we'll build you a high-converting, SEO-optimized website at no cost. No hidden fees. Just results.
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <Link 
+                to="/contact" 
+                className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-full text-slate-900 bg-white hover:bg-orange-50 transition-all shadow-lg transform hover:scale-105"
+              >
+                Claim My Free Website
+                <ArrowRight className="ml-2 h-5 w-5 text-orange-600" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -159,6 +189,10 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3 text-slate-600">
                   <div className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2.5"></div>
+                  No professional website or online presence
+                </li>
+                <li className="flex items-start gap-3 text-slate-600">
+                  <div className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2.5"></div>
                   Unpredictable income month-to-month
                 </li>
               </ul>
@@ -182,6 +216,10 @@ export default function Home() {
                 <li className="flex items-start gap-3 text-slate-800 font-medium">
                   <CheckCircle2 className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
                   High-value projects (Kitchens, Full Renovations)
+                </li>
+                <li className="flex items-start gap-3 text-slate-800 font-medium">
+                  <CheckCircle2 className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
+                  100% Free Professional Website
                 </li>
                 <li className="flex items-start gap-3 text-slate-800 font-medium">
                   <CheckCircle2 className="h-5 w-5 text-orange-500 shrink-0 mt-0.5" />
@@ -215,42 +253,42 @@ export default function Home() {
                 desc: "Complete house makeovers, extensions, and structural changes.",
                 price: "High Ticket",
                 icon: <HomeIcon className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/african-luxury-home/400/300" 
+                img: "https://images.unsplash.com/photo-1484154218962-a1c00474a42b?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Kitchen & Bath", 
                 desc: "Cabinetry, tiling, plumbing fixtures, and modern upgrades.",
                 price: "Most Popular",
                 icon: <Wrench className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/modern-kitchen-africa/400/300" 
+                img: "https://images.unsplash.com/photo-1556911220-e67041ee942d?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Roofing & Waterproofing", 
                 desc: "Leak repairs, new roof installations, and gutter systems.",
                 price: "Urgent Demand",
                 icon: <Hammer className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/roofing-work/400/300" 
+                img: "https://images.unsplash.com/photo-1632759160855-0c9205c46056?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Painting & Finishing", 
                 desc: "Interior/exterior painting, stucco, and decorative finishes.",
                 price: "High Volume",
                 icon: <PaintBucket className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/painting-wall/400/300" 
+                img: "https://images.unsplash.com/photo-1589939705319-9299154fccc3?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Electrical & Plumbing", 
                 desc: "Rewiring, pipe replacement, and system installations.",
                 price: "Steady Work",
                 icon: <Zap className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/electrician-africa/400/300" 
+                img: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Tiling & Flooring", 
                 desc: "Ceramic, porcelain, hardwood, and laminate flooring.",
                 price: "Specialized",
                 icon: <Target className="h-6 w-6" />, 
-                img: "https://picsum.photos/seed/flooring-tile/400/300" 
+                img: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80" 
               },
             ].map((service, index) => (
               <motion.div 
@@ -259,7 +297,12 @@ export default function Home() {
                 className="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 hover:border-orange-500/50 transition-all"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img src={service.img} alt={service.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" />
+                  <img 
+                    src={service.img} 
+                    alt={service.title} 
+                    referrerPolicy="no-referrer"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100" 
+                  />
                   <div className="absolute top-4 right-4 bg-slate-900/80 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-orange-400 border border-orange-500/20">
                     {service.price}
                   </div>
@@ -297,7 +340,7 @@ export default function Home() {
                 {
                   step: "01",
                   title: "Create Your Profile",
-                  desc: "Tell us which services you offer and which cities you cover (e.g., Douala, Yaoundé).",
+                  desc: "Tell us which services you offer and which cities you cover.",
                   icon: <MapPin className="h-6 w-6" />
                 },
                 {
@@ -330,29 +373,29 @@ export default function Home() {
       <section className="py-20 bg-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-slate-900 mb-4">Success Stories from Cameroon</h2>
+            <h2 className="text-3xl font-serif font-bold text-slate-900 mb-4">Success Stories from Our Partners</h2>
             <p className="text-slate-600">Join hundreds of contractors who have scaled their business with us.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                quote: "I used to rely on flyers in Akwa. Now I get 5-10 kitchen renovation requests every week directly to my phone. My team has grown from 3 to 12 people.",
+                quote: "I used to rely on flyers. Now I get 5-10 kitchen renovation requests every week directly to my phone. My team has grown from 3 to 12 people.",
                 author: "Emmanuel T.",
-                role: "General Contractor, Douala",
-                img: "https://picsum.photos/seed/african-man-smile/100/100"
+                role: "General Contractor, Toronto",
+                img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=100&q=80"
               },
               {
                 quote: "The leads are actually real. I've tried other services where the numbers were fake. Renovation Leads verifies everything first.",
                 author: "Marie-Claire A.",
-                role: "Interior Designer, Yaoundé",
-                img: "https://picsum.photos/seed/african-woman-business/100/100"
+                role: "Interior Designer, Paris",
+                img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=100&q=80"
               },
               {
-                quote: "Best investment for my roofing business. I closed a 5 million CFA project in my first week. Highly recommended.",
+                quote: "Best investment for my roofing business. I closed a $50k project in my first week. Highly recommended.",
                 author: "Samuel K.",
-                role: "Roofing Specialist, Buea",
-                img: "https://picsum.photos/seed/african-man-construction/100/100"
+                role: "Roofing Specialist, London",
+                img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80"
               }
             ].map((testimonial, i) => (
               <div key={i} className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
@@ -361,7 +404,12 @@ export default function Home() {
                 </div>
                 <p className="text-slate-700 italic mb-6 leading-relaxed">"{testimonial.quote}"</p>
                 <div className="flex items-center gap-4">
-                  <img src={testimonial.img} alt={testimonial.author} className="w-12 h-12 rounded-full object-cover" />
+                  <img 
+                    src={testimonial.img} 
+                    alt={testimonial.author} 
+                    referrerPolicy="no-referrer"
+                    className="w-12 h-12 rounded-full object-cover" 
+                  />
                   <div>
                     <p className="font-bold text-slate-900">{testimonial.author}</p>
                     <p className="text-xs text-slate-500">{testimonial.role}</p>

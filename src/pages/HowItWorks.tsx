@@ -165,17 +165,18 @@ export default function HowItWorks() {
   return (
     <div className="bg-white min-h-screen font-sans">
       <Helmet>
-        <title>How It Works | Renovation Leads Cameroon</title>
+        <title>How It Works | Renovation Leads Global</title>
         <meta name="description" content="See how our AI-driven lead generation system works. From targeted marketing to instant delivery, we simplify the process of finding new renovation jobs." />
-        <link rel="canonical" href="https://renovationleads.cm/how-it-works" />
+        <link rel="canonical" href="https://renovationleads.com/how-it-works" />
       </Helmet>
 
       {/* Hero Section */}
       <div className="relative bg-slate-900 py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
            <img
-            src="https://picsum.photos/seed/blueprint-planning/1920/1080"
+            src="https://images.unsplash.com/photo-1581291518857-4e27f483a6e7?auto=format&fit=crop&w=1920&q=80"
             alt="Blueprint background"
+            referrerPolicy="no-referrer"
             className="w-full h-full object-cover opacity-10"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-slate-900/80 to-slate-900"></div>
@@ -219,7 +220,7 @@ export default function HowItWorks() {
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">1. Targeted Acquisition</h3>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  We run high-performance ad campaigns across Google, Facebook, and local networks in Cameroon. We target homeowners specifically searching for terms like "renovation contractor Douala" or "kitchen remodeling Yaoundé".
+                  We run high-performance ad campaigns across Google, Facebook, and local networks worldwide. We target homeowners specifically searching for terms like "renovation contractor near me" or "kitchen remodeling services".
                 </p>
               </div>
               <div className="absolute left-4 md:left-1/2 -translate-x-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-slate-900 border-4 border-white shadow-xl z-10 hidden md:flex">
@@ -331,7 +332,7 @@ export default function HowItWorks() {
                {
                  icon: <Users className="h-6 w-6 text-orange-600" />,
                  title: "Smart Matching",
-                 desc: "We match leads based on your specific trade (e.g. Tiling) and location (e.g. Douala V) to ensure relevance."
+                 desc: "We match leads based on your specific trade (e.g. Tiling) and location to ensure relevance."
                },
                {
                  icon: <BarChart3 className="h-6 w-6 text-purple-600" />,
@@ -359,7 +360,7 @@ export default function HowItWorks() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-8">Ready to Fill Your Pipeline?</h2>
           <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-            Join the network of top-tier contractors in Cameroon. No long-term contracts, just results.
+            Join the network of top-tier contractors worldwide. No long-term contracts, just results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

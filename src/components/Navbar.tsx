@@ -12,6 +12,7 @@ export default function Navbar() {
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
     { name: 'How It Works', path: '/how-it-works' },
+    { name: 'Case Studies', path: '/case-studies' },
     { name: 'Testimonials', path: '/testimonials' },
     { name: 'About Us', path: '/about' },
   ];

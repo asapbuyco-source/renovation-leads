@@ -51,9 +51,9 @@ export default function Contact() {
   return (
     <div className="bg-slate-50 min-h-screen">
       <Helmet>
-        <title>Contact Us | Renovation Leads Cameroon</title>
-        <meta name="description" content="Ready to grow your business? Contact us today to join our network of trusted contractors. Phone: +237 657 960 690." />
-        <link rel="canonical" href="https://renovationleads.cm/contact" />
+        <title>Contact Us | Renovation Leads Global</title>
+        <meta name="description" content="Ready to grow your business? Contact us today to join our network of trusted contractors. Phone: +1 343 634 8743." />
+        <link rel="canonical" href="https://renovationleads.com/contact" />
       </Helmet>
       {/* Header */}
       <div className="bg-slate-900 text-white py-16 lg:py-24 relative overflow-hidden">
@@ -82,10 +82,10 @@ export default function Contact() {
                   <div>
                     <p className="text-sm font-bold text-slate-500 uppercase tracking-wide mb-1">Phone & WhatsApp</p>
                     <p className="text-lg font-medium text-slate-900 mb-1">
-                      <span className="text-sm text-slate-500 block">Cameroon:</span> +237 657 960 690
+                      <span className="text-sm text-slate-500 block">Global (WhatsApp):</span> +1 343 634 8743
                     </p>
                     <p className="text-lg font-medium text-slate-900">
-                      <span className="text-sm text-slate-500 block">Canada (WhatsApp):</span> +1 343 634 8743
+                      <span className="text-sm text-slate-500 block">Cameroon:</span> +237 657 960 690
                     </p>
                   </div>
                 </div>
@@ -105,12 +105,16 @@ export default function Contact() {
                   <div>
                     <p className="text-sm font-bold text-slate-500 uppercase tracking-wide mb-1">Locations</p>
                     <div className="mb-3">
-                      <p className="text-sm font-bold text-slate-900">Cameroon Branch:</p>
-                      <p className="text-slate-600">Douala & Yaoundé</p>
+                      <p className="text-sm font-bold text-slate-900">Global Operations:</p>
+                      <p className="text-slate-600">Worldwide Coverage</p>
                     </div>
-                    <div>
+                    <div className="mb-3">
                       <p className="text-sm font-bold text-slate-900">Head Office:</p>
                       <p className="text-slate-600">Canada</p>
+                    </div>
+                    <div>
+                      <p className="text-sm font-bold text-slate-900">Cameroon Branch:</p>
+                      <p className="text-slate-600">Douala & Yaoundé</p>
                     </div>
                   </div>
                 </div>

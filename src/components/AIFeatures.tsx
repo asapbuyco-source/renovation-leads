@@ -14,7 +14,7 @@ export default function AIFeatures() {
             <Bot className="h-4 w-4" />
             Powered by Artificial Intelligence
           </div>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Smarter Leads. Better Results.</h2>
+          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6 text-white">Smarter Leads. Better Results.</h2>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
             We use advanced AI technology to ensure you only get leads that are ready to hire, filtering out the noise so you can focus on building.
           </p>
