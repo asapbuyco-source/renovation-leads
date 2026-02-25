@@ -12,6 +12,28 @@ export default function Home() {
         <title>Renovation Leads Global | #1 Lead Generation for Contractors</title>
         <meta name="description" content="Connect with homeowners worldwide. Get exclusive, verified renovation leads sent directly to your phone." />
         <link rel="canonical" href="https://renovationleads.com/" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Renovation Leads Global",
+              "url": "https://renovationleads.com",
+              "logo": "https://renovationleads.com/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-343-634-8743",
+                "contactType": "customer service",
+                "areaServed": "Worldwide",
+                "availableLanguage": ["English", "French"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/renovationleads",
+                "https://www.instagram.com/renovationleads"
+              ]
+            }
+          `}
+        </script>
       </Helmet>
       {/* Hero Section */}
       <section className="relative pt-12 pb-16 lg:pt-24 lg:pb-32 overflow-hidden bg-slate-50">
