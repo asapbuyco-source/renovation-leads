@@ -230,21 +230,7 @@ export default function Contact() {
                           <option>Tiling/Flooring</option>
                         </select>
                       </div>
-                      <div className="space-y-2">
-                        <label htmlFor="city" className="text-sm font-bold text-slate-700">Main City</label>
-                        <select 
-                          id="city" 
-                          className="w-full px-4 py-3 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all bg-white"
-                        >
-                          <option>Douala</option>
-                          <option>Yaoundé</option>
-                          <option>Buea</option>
-                          <option>Limbe</option>
-                          <option>Bamenda</option>
-                          <option>Kribi</option>
-                          <option>Bafoussam</option>
-                        </select>
-                      </div>
+                    
                     </div>
 
                     <div className="space-y-2">
@@ -294,7 +280,7 @@ export default function Contact() {
           <div className="space-y-2">
             <FAQItem 
               question="How much do the leads cost?" 
-              answer="Lead prices vary depending on the service type (e.g., roofing leads cost more than painting leads) and the location. We offer competitive pricing starting as low as 5,000 CFA per lead. Contact us for a full price list." 
+              answer="Lead prices vary depending on the service type (e.g., roofing leads cost more than painting leads) and the location. We offer competitive pricing starting as low as 10$ per lead. Contact us for a full price list." 
             />
             <FAQItem 
               question="Are the leads exclusive?" 
@@ -306,7 +292,10 @@ export default function Contact() {
             />
             <FAQItem 
               question="Which cities do you cover?" 
-              answer="We currently cover Douala, Yaoundé, Buea, Limbe, Bamenda, Kribi, and Bafoussam. We are expanding to other cities soon." 
+              answer="We currently provide services across major cities in **Africa, Europe, Asia, and the Americas**, including Douala, Yaoundé, Buea, Limbe, Bamenda, Kribi, and Bafoussam, with an ever-growing international footprint.
+
+Our global network continues to expand as we roll out services in additional cities and regions worldwide.
+Contact us to see if we are in your area or to request coverage in your city." 
             />
             <FAQItem 
               question="Is there a long-term contract?" 

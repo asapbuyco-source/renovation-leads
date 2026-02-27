@@ -11,7 +11,7 @@ const caseStudies = [
     client: "Apex Roofing Solutions",
     location: "Toronto, Canada",
     category: "Roofing",
-    image: "https://images.unsplash.com/photo-1632759160855-0c9205c46056?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.ibb.co/XkyHBfZZ/steptodown-com160770.jpg?auto=format&fit=crop&w=800&q=80",
     stats: [
       { label: "Monthly Revenue", value: "+650%" },
       { label: "Lead Volume", value: "45/mo" },
@@ -27,7 +27,7 @@ const caseStudies = [
     client: "Modern Living Renovations",
     location: "London, UK",
     category: "Kitchen & Bath",
-    image: "https://images.unsplash.com/photo-1556911220-e67041ee942d?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.ibb.co/N2rPvRth/steptodown-com495253.jpg?auto=format&fit=crop&w=800&q=80",
     stats: [
       { label: "Avg. Project Value", value: "$45k" },
       { label: "ROI", value: "12x" },
@@ -43,7 +43,7 @@ const caseStudies = [
     client: "Fresh Coat Painters",
     location: "Sydney, Australia",
     category: "Painting",
-    image: "https://images.unsplash.com/photo-1589939705319-9299154fccc3?auto=format&fit=crop&w=800&q=80",
+    image: "https://i.ibb.co/BKjkcKH6/steptodown-com416299.jpg?auto=format&fit=crop&w=800&q=80",
     stats: [
       { label: "Cost Per Lead", value: "$28" },
       { label: "Jobs Booked", value: "120+" },

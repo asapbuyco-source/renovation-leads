@@ -17,14 +17,14 @@ const services = [
     title: "Kitchen & Bath",
     desc: "Targeted leads for kitchen upgrades and bathroom remodeling. Homeowners looking for modern finishes.",
     features: ["Cabinet Installation", "Countertop Replacement", "Shower/Tub Install", "Full Redesign"],
-    image: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=600&q=80"
+    image: "https://i.ibb.co/5Nv15zN/steptodown-com350174.jpg?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <Ruler className="h-8 w-8" />,
     title: "Roofing & Flooring",
     desc: "Specific requests for roof repairs, new installations, tiling, and parquet flooring projects.",
     features: ["Leak Repairs", "New Roof Install", "Tile & Grout", "Hardwood/Laminate"],
-    image: "https://images.unsplash.com/photo-1623162539687-3d172c694c40?auto=format&fit=crop&w=600&q=80"
+    image: "https://i.ibb.co/XkyHBfZZ/steptodown-com160770.jpg?auto=format&fit=crop&w=600&q=80"
   },
   {
     icon: <PaintBucket className="h-8 w-8" />,

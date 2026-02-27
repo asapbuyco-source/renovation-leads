@@ -19,7 +19,7 @@ const testimonials = [
     id: 2,
     name: "Marie-Claire A.",
     role: "Interior Designer",
-    location: "Yaoundé",
+    location: "Alberta",
     image: "https://picsum.photos/seed/african-woman-business/200/200",
     quote: "The leads are actually real. I've tried other services where the numbers were fake. Renovation Leads verifies everything first. The AI matching is spot on.",
     rating: 5,
@@ -39,7 +39,7 @@ const testimonials = [
     id: 4,
     name: "Jean-Pierre M.",
     role: "Tiling Expert",
-    location: "Bamenda",
+    location: "Texas",
     image: "https://picsum.photos/seed/african-worker-2/200/200",
     quote: "I was skeptical at first, but the quality of leads is impressive. I don't have to chase clients anymore. They come to me ready to start work.",
     rating: 4,
@@ -109,13 +109,11 @@ export default function Testimonials() {
             <div className="grid lg:grid-cols-2">
               <div className="relative h-64 lg:h-auto bg-slate-800 flex items-center justify-center group cursor-pointer">
                 <img 
-                  src="https://picsum.photos/seed/african-interview/800/600" 
+                  src="https://i.ibb.co/k2gQWDcP/steptodown-com371321.jpg?auto=format&fit=crop&w=600&q=80" 
                   alt="Video Testimonial Thumbnail" 
                   className="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity"
                 />
-                <div className="relative z-10 w-20 h-20 bg-orange-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-                  <Play className="h-8 w-8 text-white ml-1" />
-                </div>
+                
               </div>
               <div className="p-8 lg:p-16 flex flex-col justify-center">
                 <div className="flex gap-1 mb-6">
@@ -126,7 +124,7 @@ export default function Testimonials() {
                 </blockquote>
                 <div>
                   <p className="font-bold text-lg text-slate-900">Blaise F.</p>
-                  <p className="text-orange-600 font-medium">CEO, Douala Construction Group</p>
+                  <p className="text-orange-600 font-medium">CEO, RS Construction Group</p>
                 </div>
               </div>
             </div>

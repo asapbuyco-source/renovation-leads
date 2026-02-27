@@ -282,14 +282,14 @@ export default function Home() {
                 desc: "Cabinetry, tiling, plumbing fixtures, and modern upgrades.",
                 price: "Most Popular",
                 icon: <Wrench className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1556910103-1c02745a30bf?auto=format&fit=crop&w=400&q=80" 
+                img: "https://i.ibb.co/5Nv15zN/steptodown-com350174.jpg?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Roofing & Waterproofing", 
                 desc: "Leak repairs, new roof installations, and gutter systems.",
                 price: "Urgent Demand",
                 icon: <Hammer className="h-6 w-6" />, 
-                img: "https://images.unsplash.com/photo-1623162539687-3d172c694c40?auto=format&fit=crop&w=400&q=80" 
+                img: "https://i.ibb.co/XkyHBfZZ/steptodown-com160770.jpg?auto=format&fit=crop&w=400&q=80" 
               },
               { 
                 title: "Painting & Finishing", 
